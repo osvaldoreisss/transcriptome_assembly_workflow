@@ -21,5 +21,5 @@ threads_blast=config['threads_blast']
 def get_fastq(wildcards):
     fastqs = samples.loc[(wildcards.sample, int(wildcards.run)), ["fq1", "fq2"]].dropna()
     if len(fastqs) == 2:
-        return f"../libs/{fastqs.fq1}", f"../libs/{fastqs.fq2}"
-    return f"../libs/{fastqs.fq1}"
+        return f"{fastqs.fq1}", f"{fastqs.fq2}"
+    return f"{fastqs.fq1}"
