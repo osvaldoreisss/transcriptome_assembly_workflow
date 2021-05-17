@@ -13,20 +13,21 @@ This workflow in intended to run de novo assembly of RNASeq data and perform dif
 
 Create a CSV file with description and localization of the fastq files in `config/samples.csv`. This file should be like this:
 
-|sample      |run|condition|fq1                             |fq2                             |
-|------------|---|---------|--------------------------------|--------------------------------|
-|sample1_rep1|1  |CTRL |./last/7_S7_L001_R1_001.fastq.gz|./last/7_S7_L001_R2_001.fastq.gz|
-|sample1_rep1|2  |CTRL |./last/7_S7_L002_R1_001.fastq.gz|./last/7_S7_L002_R2_001.fastq.gz|
-|sample1_rep2|1  |CTRL |./last/8_S8_L001_R1_001.fastq.gz|./last/8_S8_L001_R2_001.fastq.gz|
-|sample1_rep2|2  |CTRL |./last/8_S8_L002_R1_001.fastq.gz|./last/8_S8_L002_R2_001.fastq.gz|
-|sample1_rep3|1  |CTRL |./last/9_S9_L001_R1_001.fastq.gz|./last/9_S9_L001_R2_001.fastq.gz|
-|sample1_rep3|2  |CTRL |./last/9_S9_L002_R1_001.fastq.gz|./last/9_S9_L002_R2_001.fastq.gz|
-|sample2_rep1|1  |TREATED |./last/1_S1_L001_R1_001.fastq.gz|./last/1_S1_L001_R2_001.fastq.gz|
-|sample2_rep1|2  |TREATED |./last/1_S1_L002_R1_001.fastq.gz|./last/1_S1_L002_R2_001.fastq.gz|
-|sample2_rep2|1  |TREATED |./last/2_S2_L001_R1_001.fastq.gz|./last/2_S2_L001_R2_001.fastq.gz|
-|sample2_rep2|2  |TREATED |./last/2_S2_L002_R1_001.fastq.gz|./last/2_S2_L002_R2_001.fastq.gz|
-|sample2_rep3|1  |TREATED |./last/3_S3_L001_R1_001.fastq.gz|./last/3_S3_L001_R2_001.fastq.gz|
-|sample2_rep3|2  |TREATED |./last/3_S3_L002_R1_001.fastq.gz|./last/3_S3_L002_R2_001.fastq.gz|
+|sample      |run|condition|fq1                                    |fq2                                    |
+|------------|---|---------|---------------------------------------|---------------------------------------|
+|SampleA_rep1|1  |SampleA  |resources/SampleA.rep1.L001.R1.fastq.gz|resources/SampleA.rep1.L001.R2.fastq.gz|
+|SampleA_rep1|2  |SampleA  |resources/SampleA.rep1.L002.R1.fastq.gz|resources/SampleA.rep1.L002.R2.fastq.gz|
+|SampleA_rep2|1  |SampleA  |resources/SampleA.rep2.L001.R1.fastq.gz|resources/SampleA.rep2.L001.R2.fastq.gz|
+|SampleA_rep2|2  |SampleA  |resources/SampleA.rep2.L002.R1.fastq.gz|resources/SampleA.rep2.L002.R2.fastq.gz|
+|SampleA_rep3|1  |SampleA  |resources/SampleA.rep3.L001.R1.fastq.gz|resources/SampleA.rep3.L001.R2.fastq.gz|
+|SampleA_rep3|2  |SampleA  |resources/SampleA.rep3.L002.R1.fastq.gz|resources/SampleA.rep3.L002.R2.fastq.gz|
+|SampleB_rep1|1  |SampleB  |resources/SampleB.rep1.L001.R1.fastq.gz|resources/SampleB.rep1.L001.R2.fastq.gz|
+|SampleB_rep1|2  |SampleB  |resources/SampleB.rep1.L002.R1.fastq.gz|resources/SampleB.rep1.L002.R2.fastq.gz|
+|SampleB_rep2|1  |SampleB  |resources/SampleB.rep2.L001.R1.fastq.gz|resources/SampleB.rep2.L001.R2.fastq.gz|
+|SampleB_rep2|2  |SampleB  |resources/SampleB.rep2.L002.R1.fastq.gz|resources/SampleB.rep2.L002.R2.fastq.gz|
+|SampleB_rep3|1  |SampleB  |resources/SampleB.rep3.L001.R1.fastq.gz|resources/SampleB.rep3.L001.R2.fastq.gz|
+|SampleB_rep3|2  |SampleB  |resources/SampleB.rep3.L002.R1.fastq.gz|resources/SampleB.rep3.L002.R2.fastq.gz|
+
 
 
 If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) repository and, if available, its DOI (see above).
