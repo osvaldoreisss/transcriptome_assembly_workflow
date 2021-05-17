@@ -1,0 +1,13 @@
+sample,run,condition,fq1,fq2
+SampleA_rep1,1,SampleA,resources/SampleA.rep1.L001.R1.fastq.gz,resources/SampleA.rep1.L001.R2.fastq.gz
+SampleA_rep1,2,SampleA,resources/SampleA.rep1.L002.R1.fastq.gz,resources/SampleA.rep1.L002.R2.fastq.gz
+SampleA_rep2,1,SampleA,resources/SampleA.rep2.L001.R1.fastq.gz,resources/SampleA.rep2.L001.R2.fastq.gz
+SampleA_rep2,2,SampleA,resources/SampleA.rep2.L002.R1.fastq.gz,resources/SampleA.rep2.L002.R2.fastq.gz
+SampleA_rep3,1,SampleA,resources/SampleA.rep3.L001.R1.fastq.gz,resources/SampleA.rep3.L001.R2.fastq.gz
+SampleA_rep3,2,SampleA,resources/SampleA.rep3.L002.R1.fastq.gz,resources/SampleA.rep3.L002.R2.fastq.gz
+SampleB_rep1,1,SampleB,resources/SampleB.rep1.L001.R1.fastq.gz,resources/SampleB.rep1.L001.R2.fastq.gz
+SampleB_rep1,2,SampleB,resources/SampleB.rep1.L002.R1.fastq.gz,resources/SampleB.rep1.L002.R2.fastq.gz
+SampleB_rep2,1,SampleB,resources/SampleB.rep2.L001.R1.fastq.gz,resources/SampleB.rep2.L001.R2.fastq.gz
+SampleB_rep2,2,SampleB,resources/SampleB.rep2.L002.R1.fastq.gz,resources/SampleB.rep2.L002.R2.fastq.gz
+SampleB_rep3,1,SampleB,resources/SampleB.rep3.L001.R1.fastq.gz,resources/SampleB.rep3.L001.R2.fastq.gz
+SampleB_rep3,2,SampleB,resources/SampleB.rep3.L002.R1.fastq.gz,resources/SampleB.rep3.L002.R2.fastq.gz

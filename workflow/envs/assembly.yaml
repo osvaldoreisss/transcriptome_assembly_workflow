@@ -1,0 +1,9 @@
+channels:
+    - conda-forge
+    - bioconda
+    - r
+dependencies:
+    - trinity =2.11.0
+    - kallisto =0.46.1
+    - bioconductor-edger =3.32.0
+    - bioconductor-deseq2 =1.30.0

@@ -1,0 +1,6 @@
+channels:
+    - conda-forge
+    - bioconda
+
+dependencies:
+    - rcorrector  =1.0.4

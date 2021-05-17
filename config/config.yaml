@@ -1,0 +1,27 @@
+# This file should contain everything to configure the workflow on a global scale.
+# In case of sample based data, it should be complemented by a samples.tsv file that contains
+# one row per sample. It can be parsed easily via pandas.
+samples: "config/samples.csv"
+
+threads: 6
+threads_trinity: 50
+threads_blast: 50 
+
+params:
+    trim:
+        - "--quality 20"
+        - "--phred33"
+        - "--fastqc"
+        - "--fastqc_args \"--threads 6\""
+        - "--trim-n"
+        - "--trim1"
+        - "--paired"
+    blast:
+        dbname:
+            - "results/uniprot/uniprot_sprot.fasta"
+        link:
+            - "ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz"
+    trinity:
+        - "--SS_lib_type FR"
+        - "--full_cleanup"
+        - "--max_memory 320G"
