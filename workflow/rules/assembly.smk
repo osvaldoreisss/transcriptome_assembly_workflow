@@ -11,7 +11,7 @@ rule create_samples_file_for_trinity:
         sample_old=''
         with open(output.samples_file, "w") as out:
             for file in input.left:
-                sample = re.split('[/ | .]', file)[2]
+                sample = re.split('[/]', file)[2].split(".R1")[0]
                 if sample==sample_old:
                     continue
                 condition = samples.loc[(sample), ["condition"]].dropna()['condition'][0]
